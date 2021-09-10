@@ -1,0 +1,617 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body a{
+    text-decoration: none;
+}
+
+
+.nav{
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0 3px 65px 0 rgba(0, 0, 0, .15);
+    z-index: 1;
+}
+
+.nav-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo{
+    float: left;
+    width: 60%;
+}
+
+.logo img{
+    padding: 0px;
+} 
+
+.nav-links a{
+    margin-right: 20px;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: olivedrab;
+
+}
+
+.nav-links{
+   float: right;
+   width: 40%;
+   padding-top: 20px;
+}
+
+.main{
+    background-image:url(./media/Background.jpg) ;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+}
+
+.main-container{
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h2{
+    color: black;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.main-container p{
+    color: #440640;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.main .main-container .btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main .main-container .btn a{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 12px 23px;
+    color: #fff;
+    text-decoration: none;
+
+} 
+
+.main  .main-container .btn a:hover{
+    border: 2px solid white;
+    background-color: red;
+}
+
+.product{
+    padding-bottom: 60px;
+}
+
+.nav-links a:hover{
+    transform: scale(0.3s);
+    transition: all 0.3s ease-in;
+}
+
+.product h3{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+.product h4{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 95%;
+}
+
+.product .product-container{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.product .product-container .item{
+    width: 33.33%;
+    height: auto;
+}
+
+.product .product-container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+
+.product .product-container .item .img-item img{
+    width: 95%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.product .product-container .item .item-contant{
+    font-size: 20px;
+    text-align: center;
+}
+
+.product .product-container .item .item-contant p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 35px;
+}
+
+.product .product-container .item .item-contant a{
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgb(171, 173, 179);
+    background-color:blue;
+    text-decoration: none;
+}
+
+.product .product-container .item .item-contant a:hover{
+    border: 2px solid white;
+    background-color: rgb(51, 51, 153);
+}
+
+.product .product-btn{
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.product .product-btn a{
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgb(171, 173, 179);
+    background-color:blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.product .product-btn a:hover{
+    border: 2px solid white;
+    background-color: rgb(51, 51, 153);
+}
+
+
+.keypoint{
+    padding: 0px;
+}
+
+.keypoint h3{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+}
+
+.keypoint .key-container{
+    display: flex;
+}
+
+.keypoint .key-container .key-contant{
+    width: 40%;
+    padding: 20px;
+    float: left;
+    font-size: 20px;
+    
+}
+
+.keypoint .key-container .key-contant li{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+    border-left: 2px solid orange;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+
+}
+
+.keypoint .key-container .key-img{
+    float: right;
+    width: 55%;
+}
+
+.keypoint .key-container .key-img img{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.testi{
+    padding: 0px;
+    overflow: hidden;
+   
+    
+}
+
+.testi h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+}
+
+.testi .testi-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+   
+}
+
+.testi .testi-container .item{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: none;
+}
+
+.testi .testi-container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+
+.testi .testi-container .item .item-img{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.testi .testi-container .item .item-img img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px    ;
+}
+
+.testi .testi-container .item .item-contant {
+    text-align: center;
+}
+
+.testi .testi-container .item .item-contant h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+}
+
+.testi .testi-container .item .item-contant p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+/* Starting team section */
+.team{
+    padding: 40px;
+}
+
+.team h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+}
+
+.team .team-container{
+    display: flex;
+}
+
+.team .team-container .team-video{
+    width: 50%;
+    padding: 10px;
+}
+
+.team .team-container .team-video video{
+    width: 100%;
+    border: 5px solid gray;
+    outline: none;
+}
+
+.team .team-container .team-contant{
+    width: 40%;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.team .team-container .team-contant p{
+    width: 100%;
+}
+
+.team .team-container .team-contant p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+/* ending team section */
+
+/* starting feedback section */
+    .feed{
+        background-image: url(./media/backgroud-feed.jpg);
+        background-size:cover ;
+        padding: 40px;
+    }
+
+    .feed h2{
+        text-align: center;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black
+    }
+
+    .feed .feed-form{
+        text-align: center;
+    }
+
+    .feed .feed-form form{
+        padding: 20px;
+    }
+
+    .feed .feed-form form input{
+        width: 30%;
+        margin: 10px;
+        padding: 8px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+
+    .feed .feed-form form textarea{
+        width: 30%;
+        margin: 10px;
+        padding: 8px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+
+    .feed .feed-form form button{
+        width: 30%;
+        margin: 10px;
+        padding: 8px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        background-color: blue;
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+    }
+
+    .feed .feed-form form button:hover{
+        background-color: rgb(51, 51, 153);
+    }
+/* ending feedback section */
+
+/* starting feedback section */
+.about-us{
+    padding: 100px;
+    margin-top: 50px;
+}
+
+.about-us h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+}
+
+.about-us p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    line-height: 35px;
+}
+/* ending feedback section */
+
+/*  starting contact */
+.contact-container{
+    padding: 100px;
+}
+
+.contact-container h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.contact-container .g-map {
+    border: 3px solid purple;
+}
+
+.contact-container .contact-content{
+    padding: 20px;
+}
+
+.contact-container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+    padding: 10px;
+}
+/* ending contact */
+
+/*  starting services */
+.services-container{
+    padding: 100px;
+}
+
+.services-container .product-2{
+    padding: 20px;
+}
+
+/* ending services */
+
+/*  starting services */
+.blog-container{
+    padding: 100px;
+}
+/* ending services */
+
+footer{
+    padding: 20px;
+    background-color: whitesmoke;
+    
+}
+
+footer .footer-logo{
+    margin-left: 22px;
+}
+
+footer .footer-pages{
+    text-align: center;
+}
+
+footer .footer-pages h3{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    
+    line-height: 30px;
+}
+
+footer .footer-pages a{
+    margin-top: 40px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+    color: orange;
+}
+
+footer .footer-pages a:hover{
+    color: olivedrab;
+}
+
+footer .doc{
+    text-align: center;
+}
+
+footer .doc h3{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+footer .doc a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+    color: orange;
+}
+
+footer .doc a:hover{
+    color: olivedrab;
+}
+
+footer .social{
+    text-align: center;
+}
+
+footer .social h3{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+footer .contant{
+    text-align: center;
+}
+
+footer .contant h3{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+footer .social a{
+    font-size: 30px;
+    margin-left: 20px;
+    color: orange;
+}
+
+footer .social a:hover{
+    color: olivedrab;
+}
+
+footer .contant a{
+    font-size: 30px;
+    margin-left: 20px;
+    color: orange;
+}
+
+footer .contant a:hover{
+    color: olivedrab;
+}
+
+footer p{
+    text-align: right;
+}
