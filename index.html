@@ -22,17 +22,17 @@
 
 <body>
     <!-- Starting Nav section -->
-    <nav class="nav nav-top" >
+    <nav class="navbar" >
         <div class="logo">
             <a href="./index.html"><img src="./media/logo.png" alt="logo-img" width="75px" ></a>
         </div>
-        <div class="nav-links">
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-            <a href="blog.html">Blogs</a>
-            <a href="./index.html">Login|Signin</a>
-        </div>
+        <ul class="nav-links">
+            <li><a href="about.html">About Us</a></li>
+            <li> <a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li> <a href="blog.html">Blogs</a></li>
+            <li><a href="./index.html">Login|Signin</a></li>
+        </ul>
     </nav>
     <!-- ending Nav section -->
 
@@ -99,8 +99,7 @@
         <h3>Our Key Highlight</h3>
         <div class="key-container">
             <div class="key-contant">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit .</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -198,11 +197,12 @@
         <h2>Write Your review</h2>
         <div class="feed-form">
             <form name="googlesheet">
-                <input type="text" name="Name" placeholder="Name"><br>
-                <input type="email" name="Email" placeholder="Email ID"><br>
-                <input type="number" name="Number" placeholder="Mobile Number"><br>
-                <textarea name="Feedback" id="" cols="8" rows="7" placeholder="Write Your Review" ></textarea><br>
+                <input type="text" name="Name" placeholder="Name" required><br>
+                <input type="email" name="Email" placeholder="Email ID" required><br>
+                <input type="number" name="Number" placeholder="Mobile Number" required><br>
+                <textarea name="Feedback" id="" cols="8" rows="7" placeholder="Write Your Review" required></textarea><br>
                 <button type="submit">Submit</button>
+                <button type="reset">Refresh</button>
             </form>
         </div>
     </div>
